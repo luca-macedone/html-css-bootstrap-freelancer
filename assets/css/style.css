@@ -1,0 +1,33 @@
+/* #region debug */
+
+.debug * {
+    border: 1px dashed;
+}
+
+.debug #app_header,
+.debug #app_footer 
+{
+    height: 80px;
+    background-color: palevioletred;
+    color: white;
+}
+
+.debug #app_main {
+    min-height: 100vh;
+    background-color: paleturquoise;
+    color: black;
+}
+
+.debug .container,
+.debug .row,
+.debug #app_header .col  
+{
+    height: 100%;
+}
+
+.debug #jumbotron>div,
+.debug #portfolio .col {
+    height: 250px;
+}
+
+/* #endregion debug */
