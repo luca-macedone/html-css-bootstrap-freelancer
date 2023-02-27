@@ -25,9 +25,16 @@
     height: 100%;
 }
 
-.debug #jumbotron>div,
-.debug #portfolio .col {
-    height: 250px;
+.debug #jumbotron div,
+.debug #call_to_action div,
+.debug #portfolio .col,
+.debug #about .col
+{
+    height: 350px;
+}
+
+.debug #about .col {
+    background-color: palegreen;
 }
 
 /* #endregion debug */
