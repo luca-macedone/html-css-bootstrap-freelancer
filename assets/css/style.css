@@ -5,14 +5,13 @@
 }
 
 .debug #app_header,
-.debug #app_footer 
-{
+.debug #app_footer {
     min-height: 80px;
     background-color: palevioletred;
     color: white;
 }
 
-.debug #app_header .col  {
+.debug #app_header .col {
     height: 80px;
 }
 
@@ -23,16 +22,14 @@
 }
 
 .debug .container,
-.debug .row
-{
+.debug .row {
     height: 100%;
 }
 
 .debug #jumbotron div,
 .debug #call_to_action div,
 .debug #portfolio .col,
-.debug #about .col
-{
+.debug #about .col {
     height: 350px;
 }
 
