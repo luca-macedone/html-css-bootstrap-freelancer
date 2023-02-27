@@ -7,9 +7,13 @@
 .debug #app_header,
 .debug #app_footer 
 {
-    height: 80px;
+    min-height: 80px;
     background-color: palevioletred;
     color: white;
+}
+
+.debug #app_header .col  {
+    height: 80px;
 }
 
 .debug #app_main {
@@ -19,8 +23,7 @@
 }
 
 .debug .container,
-.debug .row,
-.debug #app_header .col  
+.debug .row
 {
     height: 100%;
 }
@@ -35,6 +38,11 @@
 
 .debug #about .col {
     background-color: palegreen;
+}
+
+.debug .footer_top {
+    background-color: peachpuff;
+    color: black;
 }
 
 /* #endregion debug */
