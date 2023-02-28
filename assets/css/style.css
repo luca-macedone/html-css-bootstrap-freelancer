@@ -58,6 +58,10 @@
 
 /* #region utility */
 
+.color_free_primary {
+    color: var(--free-primary);
+}
+
 .bg_free_primary {
     background-color: var(--free-primary);
 }
@@ -72,8 +76,13 @@
 
 .star_divider span {
     height: 2px;
-    width: 5rem;
+    width: 4rem;
     display: inline-block;
+}
+
+.socials span {
+    width: 3rem;
+    aspect-ratio: 1 / 1;
 }
 
 /* #endregion utility */

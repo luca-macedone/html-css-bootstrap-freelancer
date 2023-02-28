@@ -51,22 +51,24 @@
     </header>
     <!-- /#app_header -->
     <main id="app_main">
-        <section class="" id="jumbotron">
+        <section id="jumbotron">
             <div class="p-0 mb-4 bg_free_primary rounded-0">
                 <div class="container py-5">
-                    <div class="d-flex flex-column justify-content-center align-items-center" id="jumbo">
-                        <img class="pb-3" width="160" src="./assets/img/avatar.svg" alt="Freelancer avatar">
-                        <h1 class="display-5 fs-1 fw-bold text-center text-uppercase text-light">
-                            Start Bootstrap
-                        </h1>
-                        <div class="star_divider text-light pb-2">
-                            <span class="bg-light me-2 rounded align-middle"></span>
-                            <i class="fa fa-star"></i>
-                            <span class="bg-light ms-2 rounded align-middle"></span>
+                    <div class="row">
+                        <div class="col d-flex flex-column justify-content-center align-items-center" id="jumbo">
+                            <img class="pb-3" width="160" src="./assets/img/avatar.svg" alt="Freelancer avatar">
+                            <h1 class="display-5 fs-1 fw-bold text-center text-uppercase text-light">
+                                Start Bootstrap
+                            </h1>
+                            <div class="star_divider text-light pb-2">
+                                <span class="bg-light me-2 rounded align-middle"></span>
+                                <i class="fa fa-star"></i>
+                                <span class="bg-light ms-2 rounded align-middle"></span>
+                            </div>
+                            <p class="fs-6 text-center text-uppercase text-light">
+                                Graphic Artist - Web Designer - Illustrator
+                            </p>
                         </div>
-                        <p class="col-md-8 fs-6 text-center text-uppercase text-light">
-                            Graphic Artist - Web Designer - Illustrator
-                        </p>
                     </div>
                 </div>
             </div>
@@ -145,13 +147,13 @@
                     </div>
                     <!-- /.row -->
                     <div class="row row-cols-1 row-cols-md-2">
-                        <div class="px-5 pb-4 pb-md-0 col text-light">
+                        <div class="px-4 pb-4 pb-md-0 col text-light">
                             Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the
                             complete source files including HTML, CSS and Javascript as well as optional LESS
                             stylesheets for easy customization.
                         </div>
                         <!-- /.col -->
-                        <div class="px-5 col text-light">
+                        <div class="px-4 col text-light">
                             Whether you're a student looking to showcase your work, a professional loooking to attract
                             clients, or a graphic artist looking to share your projects, this template is the perfect
                             starting point!
@@ -171,7 +173,7 @@
         <!-- /#about -->
         <section class="py-3" id="call_to_action">
             <div class="container">
-                <div class="py-3 py-md-5 px-5 d-flex flex-column justify-content-center align-items-center">
+                <div class="py-3 py-md-5 px-4 d-flex flex-column justify-content-center align-items-center">
                     <div class="row">
                         <div class="col-12 d-flex flex-column justify-content-center align-items-center">
                             <h2 class="fs-2 fw-bold text-center text-uppercase text-dark">Contact me</h2>
@@ -211,17 +213,48 @@
     <footer id="app_footer">
         <div class="footer_top py-3 bg_free_tertiary">
             <div class="container">
-                <div class="row row-cols-1 row-cols-md-3">
-                    <div class="col">
-                        
+                <div class="row row-cols-1 row-cols-md-3 py-md-5 px-2 px-md-0">
+                    <div class="col d-flex flex-column align-items-center text-center py-3 py-md-0">
+                        <h3 class="text-light text-uppercase fs-5">
+                            Location
+                        </h3>
+                        <span class="text-light">
+                            2215 John Daniel Drive Clark, MO
+                            54243
+                        </span>
                     </div>
                     <!-- /.col -->
-                    <div class="col">
-                        around
+                    <div class="col d-flex flex-column align-items-center py-3 py-md-0">
+                        <h3 class="text-light text-uppercase fs-5">
+                            Around the web
+                        </h3>
+                        <div class="socials d-flex gap-2">
+                            <span class="border rounded-circle px-3 d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-facebook-f fa-w text-light"></i>
+                            </span>
+                            <span class="border rounded-circle px-3 py-2 d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-google-plus-g fa-w text-light"></i>
+                            </span>
+                            <span class="border rounded-circle px-3 py-2 d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-twitter fa-w text-light"></i>
+                            </span>
+                            <span class="border rounded-circle px-3 py-2 d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-linkedin-in fa-w text-light"></i>
+                            </span>
+                        </div>
                     </div>
                     <!-- /.col -->
-                    <div class="col">
-                        about
+                    <div class="col d-flex flex-column align-items-center text-center py-3 py-md-0">
+                        <h3 class="text-light text-uppercase fs-5">
+                            About Freelancer
+                        </h3>
+                        <span class="text-light">
+                            Freelance is a free to use, open source Bootstrap theme created by 
+                            <a class="text-decoration-none color_free_primary" href="#">
+                                Start Bootstrap
+                            </a>
+                            .
+                        </span>
                     </div>
                     <!-- /.col -->
                 </div>
@@ -232,8 +265,8 @@
         <div class="footer_bottom py-3 bg_free_secondary">
             <div class="container">
                 <div class="row">
-                    <div class="col">
-                        copyright
+                    <div class="col text-center py-3">
+                        <span class="text-light">Copyright &copy; Your Website 2023</span>
                     </div>
                 </div>
             </div>
