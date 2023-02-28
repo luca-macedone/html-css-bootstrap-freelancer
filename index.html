@@ -23,32 +23,47 @@
         crossorigin="anonymous"></script>
 </head>
 
-<body class="debug">
+<body class="">
     <header id="app_header">
-        <div class="container">
-            <div class="row justify-content-between">
-                <div class="col d-flex align-items-center">
-                    left
+        <nav class="navbar navbar-expand-lg navbar-dark bg_free_secondary text-uppercase">
+            <div class="container">
+                <a class="navbar-brand" href="#">Bootstrap Freelancer</a>
+                <button class="navbar-toggler me-2 border-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Contact</a>
+                        </li>
+                    </ul>
                 </div>
-                <!-- /.col -->
-                <div class="col d-flex justify-content-end align-items-center">
-                    right
-                </div>
-                <!-- /.col -->
             </div>
-        </div>
-        <!-- /.container -->
+        </nav>
     </header>
     <!-- /#app_header -->
     <main id="app_main">
-        <section class="py-3" id="jumbotron">
-            <div class="container">
-                <div class="d-flex flex-column justify-content-center align-items-center">
-                    Jumbo
+        <section class="" id="jumbotron">
+            <div class="p-0 mb-4 bg_free_primary rounded-0">
+                <div class="container py-5 d-flex flex-column justify-content-center align-items-center">
+                    <img class="pb-3" width="160" src="./assets/img/avatar.svg" alt="Freelancer avatar">
+                    <h1 class="display-5 fs-1 fw-bold text-center text-uppercase text-light">Start Bootstrap</h1>
+                    <div class="star_divider text-light pb-2">
+                        <span class="bg-light me-2 rounded align-middle"></span>
+                        <i class="fa fa-star"></i>
+                        <span class="bg-light ms-2 rounded align-middle"></span>
+                    </div>
+                    <p class="col-md-8 fs-6 text-center text-uppercase text-light">Graphic Artist - Web Designer - Illustrator</p>
                 </div>
-                <!-- /div -->
             </div>
-            <!-- /.container -->
         </section>
         <!-- /#jumbotron -->
         <section class="py-3" id="portfolio">

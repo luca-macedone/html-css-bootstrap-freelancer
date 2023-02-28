@@ -1,3 +1,23 @@
+
+/* #region common */
+
+:root {
+    --free-primary: #1abc9c;
+    --free-secondary: #2c3e50;
+    --free-tertiary: #3a556c;
+    --free-light: #fefffe;
+    --free-dark: #150f0e;
+    --free-proj-house: #ba4b63;
+    --free-proj-cake: #1ea4b6;
+    --free-proj-circus: #150f0e;
+    --free-proj-controller: #1c83c1;
+    --free-proj-safe: #0f38b4;
+    --free-proj-submarine: #ccb3a2;
+}
+
+/* #endregion common */
+
+
 /* #region debug */
 
 .debug * {
@@ -30,7 +50,7 @@
 .debug #call_to_action div,
 .debug #portfolio .col,
 .debug #about .col {
-    height: 350px;
+    min-height: 350px;
 }
 
 .debug #about .col {
@@ -43,3 +63,21 @@
 }
 
 /* #endregion debug */
+
+/* #region utility */
+
+.bg_free_primary {
+    background-color: var(--free-primary);
+}
+
+.bg_free_secondary {
+    background-color: var(--free-secondary);
+}
+
+.star_divider span {
+    height: 3px;
+    width: 5rem;
+    display: inline-block;
+}
+
+/* #endregion utility */
