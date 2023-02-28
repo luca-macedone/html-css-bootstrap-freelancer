@@ -74,6 +74,20 @@
     background-color: var(--free-tertiary);
 }
 
+.send_btn,
+.footer_link {
+    transition: .2s all ease-in-out;
+}
+
+.send_btn:hover {
+    background-color: var(--free-secondary);
+}
+
+.footer_link:hover {
+    color: var(--free-primary);
+    font-weight: 800;
+}
+
 .star_divider span {
     height: 2px;
     width: 4rem;
@@ -81,6 +95,7 @@
 }
 
 .socials span {
+    cursor: pointer;
     width: 3rem;
     aspect-ratio: 1 / 1;
 }
